@@ -1,0 +1,119 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+header {
+	background:#fff;
+	box-shadow:0 2px 2px rgba(0,0,0,.13);
+	padding: 20px;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 600;
+	position: relative;
+	z-index: 2;
+}
+
+#wrapper {
+	margin: auto;
+	width: 1200px;
+}
+
+.logo {
+	float:left;
+	display: inline-block;
+}
+
+.logo img {
+	width: 200px;
+	margin-top:-9px; 
+}
+
+nav {
+	padding-left: 100px;
+	display: inline-block;
+	}
+
+ul {
+	list-style: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-left: 70px;
+} 
+
+li {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+
+li a {
+	color: #444444;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #2acd35;
+}
+
+main {
+	width: 100%;
+    padding: 0;
+    margin: 0; 
+}
+
+.cover {
+    background: url(http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/09/slider_1_bg_01-min.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    bottom: 5pc;
+    display: inline-block;
+}
+
+.left {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.left img {
+    position: relative;
+    top: 50px;
+    left: -230px;
+}
+    
+.right {
+    display: inline-block;
+    float: right;
+    position: fixed;
+    top: 200px;
+    right: 310px;
+    z-index: 4;
+}
+
+p {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+p.ashley {
+    font-family: Oregano;
+    font-size: 70px;
+    color: #fff;
+    margin: 0px;
+}
+
+button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 15px 31px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
