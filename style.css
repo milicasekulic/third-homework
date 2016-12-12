@@ -76,7 +76,7 @@ main {
     top: 0px;
     z-index: 1;
     width: 100%;
-    bottom: 5pc;
+    bottom: 15px;
     display: inline-block;
 }
 
@@ -247,12 +247,10 @@ span{
 }
 
 .white {
-	background:#fff;
-	position: absolute;
-    top: 252px;
-    width: 24%;
-    height: 150px; 
-
+    background: #fff;
+    position: relative;
+    top: 103px;
+    height: 150px;
 }
 
 
@@ -284,7 +282,7 @@ span{
 
 .white h5 {
 	position: relative;
-	padding-top: 20px;
+	padding-top: 35px;
 	font-size: 18px;
 	font-weight: 400;
 }
